@@ -1,0 +1,3 @@
+
+class LogFormat
+end
