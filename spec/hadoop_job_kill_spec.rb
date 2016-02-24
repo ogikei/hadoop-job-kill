@@ -1,4 +1,4 @@
-require 'spec_helper'
+require "spec_helper"
 
 describe HadoopJobKill do
   it 'has a version number' do
@@ -6,6 +6,6 @@ describe HadoopJobKill do
   end
 
   it 'does something useful' do
-    expect(false).to eq(true)
+    a = HadoopJobKill.new("~/testlog", "json").kill_hadoop_job
   end
 end
