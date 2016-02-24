@@ -5,7 +5,7 @@ class LogArchive
   end
 
   def store_log
-    File.open("@filename", "a") do |file|
+    File.open(@filename, "a+") do |file|
         file.write(@log)
     end
   end

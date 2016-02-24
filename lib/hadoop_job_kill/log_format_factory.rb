@@ -1,13 +1,12 @@
-class LogFormatFactory
-  def format_log(stdout, stderr, status)
-    raise("must not execute method of abstract class")
-  end
+require "hadoop_job_kill/log_format_for_json"
+require "hadoop_job_kill/log_format_for_text"
 
-  def create_text_log
+class LogFormatFactory
+  def self.create_text_log
     LogFormatForText.new
   end
 
-  def create_json_log
+  def self.create_json_log
     LogFormatForJson.new
   end
 end
