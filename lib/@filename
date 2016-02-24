@@ -1,1 +1,0 @@
-[{"stdout":"total 8\ndrwxr-xr-x  9 01013875  AUR#003A\\Domain Users  306 Feb 24 19:28 hadoop_job_kill\n-rw-r--r--  1 01013875  AUR#003A\\Domain Users  863 Feb 24 19:05 hadoop_job_kill.rb\n"},{"stderr":""},{"status":"pid 26138 exit 0"},{"date":"Wed Feb 24 19:28:38 JST 2016\n"}]
